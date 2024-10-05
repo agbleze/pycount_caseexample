@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycount_caseexample"
-version = "0.1.0"
+version = "0.2.0"
 description = "Counts the number of words in a file"
 authors = ["nobody"]
 license = "MIT"
@@ -26,4 +26,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.semantic_release]
-version_variable = "pyproject.toml:version"
+version_toml = ["pyproject.toml:poetry.version"]
+branch = "main"
+changelog_file = "CHANGELOG.md"
+build_command = "pip install poetry && peotry build"
