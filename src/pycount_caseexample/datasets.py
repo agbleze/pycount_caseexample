@@ -17,3 +17,6 @@ def get_flatland():
     with resources.path("pycount_caseexample.data", "flatland.txt") as f:
         data_file_path = f
     return data_file_path
+
+def get_zen():
+    pass
