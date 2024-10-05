@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.4.2 (2024-10-05)
+
+### Fix
+
+* fix: clean-up code ([`bc5ed28`](https://github.com/agbleze/pycount_caseexample/commit/bc5ed28d86cd5c7fc684b97007e3a8d6d6e67e9c))
+
 ## v0.4.1 (2024-10-05)
 
 ### Fix
