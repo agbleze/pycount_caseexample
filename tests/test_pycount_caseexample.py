@@ -45,6 +45,7 @@ def is_even(n):
         return True
     else:
         return False
+
 @pytest.mark.parametrize("n, result", [(2, True), (3, False), (4, True)])
 def test_is_even(n, result):
     assert is_even(n) == result
