@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.5.2 (2024-10-05)
+
+### Fix
+
+* fix: add version ([`380cb53`](https://github.com/agbleze/pycount_caseexample/commit/380cb533bf6088ada064058e7dff16a0a1537fa1))
+
 ## v0.5.1 (2024-10-05)
 
 ### Fix
