@@ -69,4 +69,3 @@ def count_words(input_file):
     text = clean_text(text)
     words = text.split()
     return Counter(words)
-
