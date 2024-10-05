@@ -1,4 +1,5 @@
 from importlib import resources
+import warnings
 
 def get_flatland():
     """Get path to example "Flatland" [1]_ text file.
@@ -12,7 +13,7 @@ def get_flatland():
     ----------
     .. [1] E. A. Abbott, "Flatland", Seeley & Co., 1884.
     """
+    warnings.warn("This function will be deprecated in v1.0.0", FutureWarning)
     with resources.path("pycount_caseexample.data", "flatland.txt") as f:
         data_file_path = f
     return data_file_path
-
