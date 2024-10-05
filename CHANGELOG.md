@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## v0.3.0 (2024-10-05)
+
+### Build
+
+* build: add CI workflow ([`05b9f72`](https://github.com/agbleze/pycount_caseexample/commit/05b9f7298b11b0e6725c15bac1bb974e615e4250))
+
+### Feature
+
+* feat: add poetry build ([`17320be`](https://github.com/agbleze/pycount_caseexample/commit/17320be6b2a95bfc7e5399676221c71af77d53ac))
+
+* feat: add CI/CD workflow ([`4df21b9`](https://github.com/agbleze/pycount_caseexample/commit/4df21b90b4ca60962e8db935d8e43e354c6f791d))
+
+* feat: add CI/CD workflow ([`2e4edcd`](https://github.com/agbleze/pycount_caseexample/commit/2e4edcd7799403daf9fbabbcbe09052c6ebd4782))
+
 ## v0.2.0 (2024-10-04)
 
 ### Build
