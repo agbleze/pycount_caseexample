@@ -42,7 +42,7 @@ jobs:
     needs: ci
 
     # only run this job if new work is pushed to the main branch
-    if: github.event_name == "push" && github.ref == "refs/heads/main"
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     # set up operating system
     runs-on: ubuntu-latest
