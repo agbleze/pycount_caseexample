@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycount_caseexample"
-version = "0.2.0"
+version = "0.4.3"
 description = "Counts the number of words in a file"
 authors = ["nobody"]
 license = "MIT"
