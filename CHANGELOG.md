@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## v0.5.0 (2024-10-05)
+
+### Build
+
+* build: update pyproject.toml ([`f55453d`](https://github.com/agbleze/pycount_caseexample/commit/f55453de69e120c7116a730a3175c64d5507b80f))
+
+### Feature
+
+* feat: add new data ([`9deaf36`](https://github.com/agbleze/pycount_caseexample/commit/9deaf361d29d58a6564c611e90579eaf294b3b22))
+
 ## v0.4.3 (2024-10-05)
 
 ### Fix
