@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.4.3 (2024-10-05)
+
+### Fix
+
+* fix: remove code from datasets.py ([`9e00300`](https://github.com/agbleze/pycount_caseexample/commit/9e00300b10646f8e045c787c74b0660e14a966b3))
+
 ## v0.4.2 (2024-10-05)
 
 ### Fix
