@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.5.1 (2024-10-05)
+
+### Fix
+
+* fix: add get new data ([`a3a3487`](https://github.com/agbleze/pycount_caseexample/commit/a3a348739b7dcdea753fe52a31e25432f20d4f21))
+
 ## v0.5.0 (2024-10-05)
 
 ### Build
