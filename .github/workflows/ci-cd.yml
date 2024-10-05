@@ -75,7 +75,7 @@ jobs:
       - name: Test install from TestPYPI
         run: |
           pip install --index-url https://test.pypi.org/simple/ \
-          --extra-index-url https://test.pypi.org/simple pycount_caseexample
+          --extra-index-url https://pypi.org/simple pycount_caseexample
 
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
