@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## v0.5.3 (2024-10-05)
+
+### Fix
+
+* fix: add data ([`c4ccd00`](https://github.com/agbleze/pycount_caseexample/commit/c4ccd00096dbf5d79976a04c69ac76c209ec78d7))
+
+### Test
+
+* test: change test ([`1fa0061`](https://github.com/agbleze/pycount_caseexample/commit/1fa0061ba3f34af6cb864600acddd9b98386b929))
+
 ## v0.5.2 (2024-10-05)
 
 ### Fix
