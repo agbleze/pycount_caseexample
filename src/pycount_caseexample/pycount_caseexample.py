@@ -22,7 +22,6 @@ def load_text(input_file):
         text = file.read()
     return text
 
-
 def clean_text(text):
     """Lowercase and remove punctuation from a string.
 
