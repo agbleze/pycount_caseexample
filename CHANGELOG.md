@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.4.0 (2024-10-05)
+
+### Feature
+
+* feat: add extra-index-url ([`e555fa2`](https://github.com/agbleze/pycount_caseexample/commit/e555fa2511f72515f5a138abe4248fe3a4adc879))
+
 ## v0.3.0 (2024-10-05)
 
 ### Build
@@ -7,6 +13,8 @@
 * build: add CI workflow ([`05b9f72`](https://github.com/agbleze/pycount_caseexample/commit/05b9f7298b11b0e6725c15bac1bb974e615e4250))
 
 ### Feature
+
+* feat: add CI/CD build ([`6b82730`](https://github.com/agbleze/pycount_caseexample/commit/6b82730b289c2f2fae1f42e66741641969f0923c))
 
 * feat: add poetry build ([`17320be`](https://github.com/agbleze/pycount_caseexample/commit/17320be6b2a95bfc7e5399676221c71af77d53ac))
 
