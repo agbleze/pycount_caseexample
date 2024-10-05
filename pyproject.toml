@@ -29,4 +29,4 @@ build-backend = "poetry.core.masonry.api"
 version_toml = ["pyproject.toml:poetry.version"]
 branch = "main"
 changelog_file = "CHANGELOG.md"
-build_command = "pip install poetry && peotry build"
+build_command = "pip install poetry && poetry build"
