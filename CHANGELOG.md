@@ -1,10 +1,24 @@
 # CHANGELOG
 
+## v0.4.1 (2024-10-05)
+
+### Fix
+
+* fix: remove unwanted code ([`26311e6`](https://github.com/agbleze/pycount_caseexample/commit/26311e6797057cd74fb8a49ed4e9facb35c6d26a))
+
+### Unknown
+
+* Merge branch &#39;main&#39; of https://github.com/agbleze/pycount_caseexample into main ([`0fd6aee`](https://github.com/agbleze/pycount_caseexample/commit/0fd6aee60cd59cff0c67eba38eedcb8b42c62eb6))
+
 ## v0.4.0 (2024-10-05)
 
 ### Feature
 
 * feat: add extra-index-url ([`e555fa2`](https://github.com/agbleze/pycount_caseexample/commit/e555fa2511f72515f5a138abe4248fe3a4adc879))
+
+### Style
+
+* style: remove trail line ([`b421439`](https://github.com/agbleze/pycount_caseexample/commit/b421439d27c31eb50624fa3bf1a6a3045b7b0371))
 
 ## v0.3.0 (2024-10-05)
 
