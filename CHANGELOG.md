@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.22 (2024-11-11)
+
+### Fix
+
+* fix: update ([`b3b48da`](https://github.com/agbleze/pycount_caseexample/commit/b3b48daba9859100788b4d99e50eb06936cac719))
+
 ## v0.6.21 (2024-11-11)
 
 ### Fix
