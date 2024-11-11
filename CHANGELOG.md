@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.26 (2024-11-11)
+
+### Fix
+
+* fix: move release id in ci-cd ([`18cbd81`](https://github.com/agbleze/pycount_caseexample/commit/18cbd81505d005c622e1725a46fa780fb2b035ac))
+
 ## v0.6.25 (2024-11-11)
 
 ### Fix
