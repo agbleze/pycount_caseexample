@@ -31,3 +31,6 @@ version_variable = ["src/pycount_caseexample/__init__.py:__version__"]
 branch = "main"
 changelog_file = "CHANGELOG.md"
 build_command = "pip install poetry && poetry build"
+
+#[tool.semantic_release.remote]
+
