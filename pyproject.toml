@@ -38,7 +38,6 @@ version_variable = ["src/pycount_caseexample/__init__.py:__version__",
 #version_toml = ["pyproject.toml:tool.poetry.version"]
 #version_variable = ["src/pycount_caseexample/__init__.py:__version__"]
 changelog_file = "CHANGELOG.md"
-#branch = "main"
 
 [tool.semantic_release.remote.token]
 env = "GITHUB_TOKEN"
