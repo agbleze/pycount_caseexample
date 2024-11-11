@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.18 (2024-11-11)
+
+### Fix
+
+* fix: update with token ([`b6ca5ea`](https://github.com/agbleze/pycount_caseexample/commit/b6ca5ea0e47d1e74e3ae1ec6869435c4b9a73eb8))
+
 ## v0.6.17 (2024-11-11)
 
 ### Fix
