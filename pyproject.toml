@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycount_caseexample"
-version = "0.6.4"
+version = "0.6.24"
 description = "Counts the number of words in a file"
 authors = ["nobody"]
 license = "MIT"
@@ -26,15 +26,19 @@ python-semantic-release = "^9.9.0"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.semantic_release.branch.main]
-version_toml = ["pyproject.toml:tool.poetry.version"]
-version_variable = ["src/pycount_caseexample/__init__.py:__version__"]
-changelog_file = "CHANGELOG.md"
-#branch = "main"
-
 
 [tool.semantic_release]
 build_command = "poetry build" #"pip install poetry && poetry build"
+version_toml = ["pyproject.toml:tool.poetry.version"]
+version_variable = ["src/pycount_caseexample/__init__.py:__version__",
+                    "docs/conf.py:version"
+                    ]
+
+[tool.semantic_release.branch.main]
+#version_toml = ["pyproject.toml:tool.poetry.version"]
+#version_variable = ["src/pycount_caseexample/__init__.py:__version__"]
+changelog_file = "CHANGELOG.md"
+#branch = "main"
 
 [tool.semantic_release.remote.token]
 env = "GITHUB_TOKEN"
