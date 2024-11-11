@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pycount_caseexample"
-version = "0.6.0"
+version = "0.6.4"
 description = "Counts the number of words in a file"
 authors = ["nobody"]
 license = "MIT"
@@ -30,7 +30,7 @@ version_toml = ["pyproject.toml:tool.poetry.version"]
 version_variable = ["src/pycount_caseexample/__init__.py:__version__"]
 changelog_file = "CHANGELOG.md"
 branch = "main"
-build_command = ["pip install poetry && poetry build"]
+build_command = "pip install poetry && poetry build"
 
 [tool.semantic_release.commit_author]
 env = "GIT_COMMIT_AUTHOR"
