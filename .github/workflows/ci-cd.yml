@@ -20,8 +20,8 @@ jobs:
     - name: Install poetry
       uses: snok/install-poetry@v1
 
-    - name: Install package
-      run: poetry install
+    - name: Build and Install package
+      run: poetry build && poetry install
 
     - name: Test with pytest
       run: poetry run pytest tests/ --cov=pycount_caseexample --cov-report=xml
