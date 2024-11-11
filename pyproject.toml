@@ -34,7 +34,7 @@ changelog_file = "CHANGELOG.md"
 build_command = "pip install poetry && poetry build"
 
 [tool.semantic_release.remote.token]
-env = "GH_TOKEN"
+env = "GITHUB_TOKEN"
 
 [tool.semantic_release.commit_author]
 env = "GIT_COMMIT_AUTHOR"

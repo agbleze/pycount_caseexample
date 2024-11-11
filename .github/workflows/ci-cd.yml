@@ -71,8 +71,7 @@ jobs:
         run: pip3 install python-semantic-release==9.9.0
 
       - name: Version bumping | Build distribution package | Release publishing
-        with:
-            github_token: ${{ secrets.GITHUB_TOKEN}}
+      
         run: | 
           semantic-release version
           poetry build
