@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.6.8 (2024-11-11)
+
+### Bug Fixes
+
+- Ci-cd
+  ([`89db4da`](https://github.com/agbleze/pycount_caseexample/commit/89db4daa6665020245f5c3703157fbb5fa822fe6))
+
+
 ## v0.6.7 (2024-11-11)
 
 ### Bug Fixes
