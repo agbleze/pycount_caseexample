@@ -65,6 +65,9 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Install poetry
+        uses: snok/install-poetry@v1
+        
       - name: Build distribution package
         run: poetry build
 
