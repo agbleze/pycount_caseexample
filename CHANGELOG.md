@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.6.9 (2024-11-11)
+
+### Bug Fixes
+
+- Add build package to ci-cd
+  ([`bc2df65`](https://github.com/agbleze/pycount_caseexample/commit/bc2df6521378f86dc283533fa33be86126aa0a2e))
+
+
 ## v0.6.8 (2024-11-11)
 
 ### Bug Fixes
