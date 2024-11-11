@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.6.13 (2024-11-11)
+
+### Fix
+
+* fix: update cd with installation of semantic-release ([`52fe636`](https://github.com/agbleze/pycount_caseexample/commit/52fe636231929e2ce8fbe19b898f20c000948478))
+
+* fix: update cd ([`8c3e76b`](https://github.com/agbleze/pycount_caseexample/commit/8c3e76b1851f7360e5094a5cde883d7c149b7965))
+
 ## v0.6.12 (2024-11-11)
 
 ### Fix
