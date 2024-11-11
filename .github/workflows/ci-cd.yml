@@ -75,11 +75,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: semantic-release version
 
-      - name: Build distribution package
-        run: poetry build
+      #- name: Build distribution package
+      #  run: poetry build
 
-      - name: Release pub
-        run: semantic-release publish
+      #- name: Release pub
+      #  run: semantic-release publish
 
       #- name: Build distribution package
       #  run: poetry build
