@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.25 (2024-11-11)
+
+### Fix
+
+* fix: update locate of version_toml ([`32ddfca`](https://github.com/agbleze/pycount_caseexample/commit/32ddfca39e4d30f9c877462d85211675cd843c5d))
+
 ## v0.6.24 (2024-11-11)
 
 ## v0.6.23 (2024-11-11)
