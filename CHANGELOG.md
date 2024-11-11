@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.20 (2024-11-11)
+
+### Fix
+
+* fix: remove -vv ([`3410f7b`](https://github.com/agbleze/pycount_caseexample/commit/3410f7baa94a8eaba4f3e2bc5dac4a5f479af6b3))
+
 ## v0.6.19 (2024-11-11)
 
 ### Unknown
