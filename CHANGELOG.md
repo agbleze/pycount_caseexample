@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.12 (2024-11-11)
+
+### Fix
+
+* fix: update ci-cd with python-semantic ([`2cbf897`](https://github.com/agbleze/pycount_caseexample/commit/2cbf897ea085634fae1eb939bb57afe6b962f173))
+
 ## v0.6.11 (2024-11-11)
 
 ### Fix
