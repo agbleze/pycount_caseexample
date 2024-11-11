@@ -59,15 +59,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Use Python Semantic Release to prepare Release
+      #- name: Use Python Semantic Release to prepare Release
+      - name: Version bumping
         id: release
-        uses: python-semantic-release/python-semantic-release@v8.3.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+        #uses: python-semantic-release/python-semantic-release@v8.3.0
+        #with:
+        #  github_token: ${{ secrets.GITHUB_TOKEN }}
+        run: semantic-release version
 
       - name: Install poetry
         uses: snok/install-poetry@v1
-        
+
       - name: Build distribution package
         run: poetry build
 
