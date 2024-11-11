@@ -33,6 +33,9 @@ changelog_file = "CHANGELOG.md"
 #branch = "main"
 build_command = "pip install poetry && poetry build"
 
+[tool.semantic_release.remote]
+env = "GH_TOKEN"
+
 [tool.semantic_release.commit_author]
 env = "GIT_COMMIT_AUTHOR"
 default = "semantic-release <auto-build>"
