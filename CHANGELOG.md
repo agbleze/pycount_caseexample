@@ -1,9 +1,15 @@
 # CHANGELOG
 
 
+## v0.6.5 (2024-11-11)
+
+
 ## v0.6.4 (2024-11-11)
 
 ### Bug Fixes
+
+- Remove [] from build_command
+  ([`278747d`](https://github.com/agbleze/pycount_caseexample/commit/278747d259bb0cae1755df55148d19865bd2a370))
 
 - Remove pusblish
   ([`dc3514e`](https://github.com/agbleze/pycount_caseexample/commit/dc3514e5505e721b6eaea84ffd9a810561b78822))
