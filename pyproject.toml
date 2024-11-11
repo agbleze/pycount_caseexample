@@ -36,7 +36,7 @@ build_command = ["pip install poetry && poetry build"]
 env = "GIT_COMMIT_AUTHOR"
 default = "semantic-release <auto-build>"
 
-[tool.semantic_release.publish]
-upload_to_vcs_release= true
-dist_glob_patterns = ["dist/*"]
+#[tool.semantic_release.publish]
+#upload_to_vcs_release= true
+#dist_glob_patterns = ["dist/*"]
 
