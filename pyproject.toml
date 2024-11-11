@@ -25,12 +25,16 @@ python-semantic-release = "^9.9.0"
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.semantic_release]
+[tool.semantic_release.branch.main]
 version_toml = ["pyproject.toml:tool.poetry.version"]
 version_variable = ["src/pycount_caseexample/__init__.py:__version__"]
-branch = "main"
+#branch = "main"
 changelog_file = "CHANGELOG.md"
 build_command = "pip install poetry && poetry build"
+
+[tool.semantic_release.commit_author]
+env = "GIT_COMMIT_AUTHOR"
+default = "semantic-release <semantic-release>"
 
 [tool.semantic_release.publish]
 upload_to_vcs_release= true
