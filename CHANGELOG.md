@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## v0.6.1 (2024-11-11)
+
+### Build
+
+* build: update build ([`ec3ef9b`](https://github.com/agbleze/pycount_caseexample/commit/ec3ef9be29037dc74211f1584fc06a6764a44248))
+
+* build: update build ([`d112286`](https://github.com/agbleze/pycount_caseexample/commit/d1122868101cc63e6139ce13cfda0f9dc5da91de))
+
+### Fix
+
+* fix: fix commit_author ([`a1bc975`](https://github.com/agbleze/pycount_caseexample/commit/a1bc97500402e91d5ce4b43a5eeb9c580c684b72))
+
+* fix: fix commit_author ([`5392996`](https://github.com/agbleze/pycount_caseexample/commit/5392996b744739e31913e0dc3194f112aed6efe9))
+
+* fix: fix commit_author ([`fa52b21`](https://github.com/agbleze/pycount_caseexample/commit/fa52b210f525a064737b0fd18acf64ace1c1c3df))
+
 ## v0.6.0 (2024-11-11)
 
 ### Build
