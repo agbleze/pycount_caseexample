@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.6.7 (2024-11-11)
+
+### Bug Fixes
+
+- Add branch
+  ([`4459e20`](https://github.com/agbleze/pycount_caseexample/commit/4459e2077a9bc9135b2e539aabde8de5ef99bf01))
+
+
 ## v0.6.6 (2024-11-11)
 
 ### Bug Fixes
