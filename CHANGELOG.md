@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.14 (2024-11-11)
+
+### Fix
+
+* fix: update cd ([`97097fe`](https://github.com/agbleze/pycount_caseexample/commit/97097fef5b7ca78be15db4c7b9e7009b21cad626))
+
 ## v0.6.13 (2024-11-11)
 
 ### Fix
