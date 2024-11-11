@@ -32,5 +32,8 @@ branch = "main"
 changelog_file = "CHANGELOG.md"
 build_command = "pip install poetry && poetry build"
 
+[tool.semantic_release.publish]
+upload_to_vcs_release= true
+dist_glob_patterns = ["dist/*"]
 #[tool.semantic_release.remote]
 
