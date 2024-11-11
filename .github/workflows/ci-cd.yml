@@ -73,7 +73,7 @@ jobs:
       - name: Version bumping | Build distribution package | Release publishing
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: semantic-release -vv version
+        run: semantic-release version
 
       - name: Build distribution package
         run: poetry build
