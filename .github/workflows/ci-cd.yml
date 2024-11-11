@@ -20,8 +20,8 @@ jobs:
     - name: Install poetry
       uses: snok/install-poetry@v1
 
-    - name: Build and Install package
-      run: poetry build && poetry install
+    - name: Install package
+      run: poetry install
 
     - name: Test with pytest
       run: poetry run pytest tests/ --cov=pycount_caseexample --cov-report=xml
@@ -64,6 +64,9 @@ jobs:
         uses: python-semantic-release/python-semantic-release@v8.3.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build distribution package
+        run: poetry build
 
       - name: Publish to TestPYPI
         uses: pypa/gh-action-pypi-publish@release/v1
