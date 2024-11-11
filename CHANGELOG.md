@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## v0.6.3 (2024-11-11)
+
+### Fix
+
+* fix: add build command in [] ([`7a3c91c`](https://github.com/agbleze/pycount_caseexample/commit/7a3c91c75eb78d07e4b33cd43d99cf4a15c0eda9))
+
 ## v0.6.2 (2024-11-11)
 
 ### Fix
