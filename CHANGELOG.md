@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v0.6.0 (2024-11-11)
+
+### Build
+
+* build: update build ([`d85e851`](https://github.com/agbleze/pycount_caseexample/commit/d85e851391a4aebc2dc3a2cb402e22760bef96ba))
+
+* build: update build ([`f09756c`](https://github.com/agbleze/pycount_caseexample/commit/f09756cd5a3fe4fba86f142c60685b365db05159))
+
 ## v0.5.3 (2024-10-05)
 
 ### Fix
