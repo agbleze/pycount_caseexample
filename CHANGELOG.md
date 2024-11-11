@@ -1,8 +1,16 @@
 # CHANGELOG
 
+## v0.6.19 (2024-11-11)
+
+### Unknown
+
+* Merge branch &#39;main&#39; of https://github.com/agbleze/pycount_caseexample into main ([`95ccfd0`](https://github.com/agbleze/pycount_caseexample/commit/95ccfd019cf85c0e714d6e4fd42b80b02d7ede80))
+
 ## v0.6.18 (2024-11-11)
 
 ### Fix
+
+* fix: update with token ([`2019876`](https://github.com/agbleze/pycount_caseexample/commit/201987678a5e1e79cd4b5568da7179f6d1191cc1))
 
 * fix: update with token ([`b6ca5ea`](https://github.com/agbleze/pycount_caseexample/commit/b6ca5ea0e47d1e74e3ae1ec6869435c4b9a73eb8))
 
