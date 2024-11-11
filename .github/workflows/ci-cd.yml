@@ -70,11 +70,14 @@ jobs:
         #  github_token: ${{ secrets.GITHUB_TOKEN }}
         run: pip3 install python-semantic-release==9.9.0
 
-      - name: Version bumping
-        run: semantic-release version
+      - name: Version bumping | Build distribution package | Release publishing
+        run: | 
+          semantic-release version
+          poetry build
+          semantic-release publish
 
-      - name: Build distribution package
-        run: poetry build
+      #- name: Build distribution package
+      #  run: poetry build
 
       - name: Publish to TestPYPI
         uses: pypa/gh-action-pypi-publish@release/v1
