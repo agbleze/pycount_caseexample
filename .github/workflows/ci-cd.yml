@@ -35,7 +35,7 @@ jobs:
       run: poetry run make html --directory docs/
 
   cd:
-    permissions:
+    permissions: #read-all | write-all
      id-token: write
      contents: write
     # only run this job when ci passes
@@ -71,6 +71,8 @@ jobs:
         run: pip3 install python-semantic-release==9.9.0
 
       - name: Version bumping | Build distribution package | Release publishing
+        with:
+            github_token: ${{ secrets.GITHUB_TOKEN}}
         run: | 
           semantic-release version
           poetry build
