@@ -64,13 +64,14 @@ jobs:
         uses: snok/install-poetry@v1
         
       - name: Install semantic release 
-        id: release
+        #id: release
         #uses: python-semantic-release/python-semantic-release@v8.3.0
         #with:
         #  github_token: ${{ secrets.GITHUB_TOKEN }}
         run: pip3 install python-semantic-release==9.9.0
 
-      - name: Version bumping #| Build distribution package | Release publishing
+      - name: Version bumping
+        id: release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: semantic-release version
