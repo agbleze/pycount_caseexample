@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.6.6 (2024-11-11)
+
+### Bug Fixes
+
+- Add publish upload
+  ([`7e8d4fb`](https://github.com/agbleze/pycount_caseexample/commit/7e8d4fb8f8e4ab18d69792700d20d180049ddf17))
+
+
 ## v0.6.5 (2024-11-11)
 
 
